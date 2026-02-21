@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple MP3 Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player">
+        <audio id="audio" src="your_song.mp3" preload="auto"></audio>
+        <div class="controls">
+            <button id="playBtn">Play</button>
+            <button id="stopBtn">Stop</button>
+            <button id="rewindBtn">Rewind 10s</button>
+            <button id="forwardBtn">Forward 10s</button>
+        </div>
+        <div class="time">
+            <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
